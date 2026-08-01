@@ -1,0 +1,8 @@
+{
+  "name": "docs-kit",
+  "version": "0.1.0",
+  "description": "Documentacao viva para os projetos da Halarum. Mantem notas de referencia do codigo (estado atual) e um registro do que esta em andamento. Sem versionamento por enquanto.",
+  "author": {
+    "name": "Halarum Digital"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "halarum",
+  "owner": {
+    "name": "Halarum Digital"
+  },
+  "plugins": [
+    {
+      "name": "docs-kit",
+      "source": "./",
+      "description": "Documentacao viva: mantem notas de referencia do codigo e um registro do que esta em andamento."
+    }
+  ]
+}

@@ -39,7 +39,16 @@ O `doctor` confirma que o ambiente está ok. Se o caminho não bater, procure on
 ## Ligar num projeto (uma vez por repo)
 
 ```
-/docs-kit:init
+## Primeira vez num projeto — a ordem completa
+
+1. `/docs-kit:init` — responda qual é a branch base
+2. `/docs-kit:lista` — monta a fila em `docs/_inventario.md`
+3. `/docs-kit:nota` — escreve uma nota; leia e resolva os `⚠️ confirmar`
+4. Repita o passo 3 até a fila acabar
+5. `git add . && git commit -m "documentação inicial" && git push`
+
+Terminou a carga inicial. Do dia seguinte em diante, apenas `/docs-kit:doc`
+antes de commitar.
 
 ```
 

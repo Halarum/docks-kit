@@ -50,7 +50,15 @@ O `doctor` confirma que o ambiente está ok. Se o caminho não bater, procure on
 Terminou a carga inicial. Do dia seguinte em diante, apenas `/docs-kit:doc`
 antes de commitar.
 
+OBS:
+/docs-kit:lista → high. É varredura e organização — não precisa do raciocínio máximo, precisa de cobertura.
+/docs-kit:nota → xhigh. É aqui que mora o risco de chute: ler módulo, cruzar com teste, decidir o que é comportamento real. É o passo que vale pagar mais caro.
+max eu reservaria só se alguma nota sair rasa ou com muito ⚠️ 
 ```
+
+
+
+&nbsp;
 
 Cria `docs/referencia/`, o arquivo `docs/.base` e a seção de documentação no [`CLAUDE.md`](http://CLAUDE.md). O `docs/.base` guarda o nome da branch base deste repositório (`homolog`, `dev`, o que for) — é contra ela que o `/docs-kit:doc` compara. Cada repo tem a sua.
 

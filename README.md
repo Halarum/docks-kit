@@ -18,7 +18,7 @@ Instruções completas, fluxo detalhado e perguntas frequentes: [**MANUAL.md**](
 **1. O plugin**
 
 ```
-/plugin marketplace add halarumdigital/docs-kit
+/plugin marketplace add Halarum/docks-kit
 /plugin install docs-kit@halarum
 /reload-plugins
 
